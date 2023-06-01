@@ -1,0 +1,176 @@
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin:0px;
+    padding: 0px;
+}
+.cabeza1{
+    display: flex;
+    align-content: center;
+    height: 100px;
+    background-color: rgb(34, 34, 34);
+
+}
+.cabeza2{
+    display: flex;
+    align-content: center;
+}
+
+.textoVerde{
+    color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.textoRojo{
+    color:red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.textoAlCentroVertical{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:white;   
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+.menu article {
+    margin-right: 11px;
+}
+
+
+.cuerpo{
+    display: flex;
+    margin: 1%;   
+    position: relative; 
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.cuerpo2{
+    display: flex;
+    align-items: center;
+}
+
+
+.cuerpo3{
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    height: 28px;
+    display: flex;
+    height: 28px;
+    left: 38.98px;
+    top: 20px;
+}
+
+.podioPizza{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.podioPizza2{
+    color:red;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+.podioPizza3{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+
+
+.pizzaTop5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+
+
+.listaNumeros{
+    list-style-type:decimal;
+}
+
+.listaNumeros li{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+
+.pie1{
+    display: flex;
+    align-content: center;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+
+}
+.pie2{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.menupie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-right: auto;
+}
+
+.menupie article{
+    margin:5px;
+}
+
+.pie2 article {
+    margin-left: 11px;
+}
